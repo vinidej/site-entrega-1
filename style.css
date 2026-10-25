@@ -1,0 +1,63 @@
+
+
+
+.cabecalho{
+    color:white;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.itens{
+    display: flex;
+    gap: 24px;
+    align-items:right;
+    font-family: Arial Bold;
+}
+
+.cabecalho img{
+    width: 50px;
+    height: auto;
+    align-items: left;
+}
+
+.cabecalho h1{
+    font-family: Arial Bold;
+}
+
+.logo{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.p1{
+    font-family: Arial;
+    color: red;
+}
+
+.destaque h1{
+    font-size: 100px;
+}
+
+.destaque{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.botao{
+    color: white;
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    font-family: Arial Bold 700;
+}
+
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
