@@ -61,9 +61,12 @@
 .botao{
     color: white;
     background-color: #770707;
-    width: 200px;
-    height: 40px;
-    font-family: Arial Bold 700;
+    display: inline-block;
+    padding: 14px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 1%;
+    margin-right: 150px;
 }
 
 .lado-esquerdo{
@@ -136,16 +139,4 @@
   margin: 0;
   color: #666;
   font-size: 18px;
-}
-
-.link{
-    display: inline-block;
-    padding: 10px 14px;
-    border-radius: 999px;
-    background: #770707;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    margin-top: 5px;
 }
