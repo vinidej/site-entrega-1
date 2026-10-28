@@ -1,5 +1,5 @@
 
-
+/*header*/
 
 .cabecalho{
     color:white;
@@ -33,13 +33,23 @@
     align-items: center;
 }
 
+/*destaque*/
+
 .p1{
     font-family: Arial;
-    color: red;
+    color: #770707;
 }
 
-.destaque h1{
-    font-size: 100px;
+.p2{
+    color: gray;
+}
+
+.p3{
+    font-size: 50px;
+    margin: 0 0;
+    transform: scale(1.5);
+    position: relative;
+    left: 93px;
 }
 
 .destaque{
@@ -50,7 +60,7 @@
 
 .botao{
     color: white;
-    background-color: red;
+    background-color: #770707;
     width: 200px;
     height: 40px;
     font-family: Arial Bold 700;
@@ -59,5 +69,83 @@
 .lado-esquerdo{
     display: flex;
     flex-direction: column;
-    gap: 0;
+    position: relative;
+    top: 160px;
+    left: 150px;
+    transform: scale(1.5);
+}
+
+.destaque img{
+    position: relative;
+    top: 30px;
+    right: 100px;
+}
+
+.faixa_meio{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin: 25px auto;
+    position: relative;
+    top: 10px;
+}
+
+.final{
+    margin-left:6%;
+}
+
+.final p{
+    font-family: Arial;
+    color: #770707;
+    margin: 5px auto 2px;
+    font-size:20px;
+}
+
+.final h2{
+    margin: 2px auto 5px;
+    font-size: 39px;
+}
+
+.jogadores {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.card span {
+  color: #c8102e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card h3 {
+  margin: 8px 0;
+  font-size: 22px;
+}
+
+.card p {
+  margin: 0;
+  color: #666;
+  font-size: 18px;
+}
+
+.link{
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: #770707;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
 }
